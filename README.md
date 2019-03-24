@@ -10,8 +10,8 @@
 # Data
 	financial_data.csv has data including personal information like age, and time employed, as well as other financial metrics. These data points are used to create risk scores based on many different risk factors. Set of scores are built using some algorithms. Using this personal and financial features, we can predict if the user is more likely to respond to current onboarding process.
 # Model Accuracies
-	index 			Model 								Accuracy				Precision 			Recall			F1 Score
-	0			Linear Regression (Lasso)				0.561977				0.575963			0.705913		0.634351
+	index Model 		          Accuracy    Precision    Recall   F1 Score
+	0     Linear Regression (Lasso)	  0.561977    0.575963	   0.705913 0.634351
 	1			SVM (Linear)							0.568398				0.577769			0.735996		0.647354
 	2			SVM (RBF)								0.591569				0.605720			0.690871		0.645505
 	3			Random Forest (n=100)					0.621999				0.640137			0.679979		0.659457
